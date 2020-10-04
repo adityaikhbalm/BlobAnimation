@@ -64,7 +64,7 @@ Default Blob Animation, it will play Blob Animation with your own style.
 <com.adityaikhbalm.blobanimation.layout.BlobLayout
         android:layout_width="300dp" // 300dp or whatever you want
         android:layout_height="300dp" // 300dp or whatever you want 
-        app:blobLayout="@drawable/turtle_kids_black_square_1024x1024"
+        app:blobLayout="@drawable/your_image" // image or color
         app:blobPointCount="16"
         app:blobRadius="200"
         app:blobPlay="true"
