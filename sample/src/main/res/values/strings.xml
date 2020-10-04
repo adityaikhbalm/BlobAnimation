@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Blob Layout</string>
+    <string name="default_properties">Default Properties</string>
+    <string name="custom_properties">Custom Properties</string>
+</resources>

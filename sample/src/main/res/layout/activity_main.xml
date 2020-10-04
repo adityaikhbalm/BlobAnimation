@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="12">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="@string/default_properties"
+        android:background="@android:color/holo_green_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:weightSum="2"
+        android:baselineAligned="false">
+
+        <com.adityaikhbalm.blobanimation.layout.BlobLayout
+            android:id="@+id/asd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:blobLayout="@android:color/holo_green_light"
+            app:blobRadius="250"
+            tools:ignore="NestedWeights" />
+
+        <com.adityaikhbalm.blobanimation.layout.BlobLayout
+            android:id="@+id/bvg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:blobLayout="@drawable/turtle_kids_black_square_1024x1024"
+            app:blobRadius="250" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="@string/custom_properties"
+        android:background="@android:color/holo_green_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:weightSum="2"
+        android:baselineAligned="false">
+
+        <com.adityaikhbalm.blobanimation.layout.BlobLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:blobLayout="@color/colorAccent"
+            app:blobPointCount="12"
+            app:blobRadius="250"
+            app:blobPlay="true"
+            app:blobDuration="2000"
+            app:blobOffset="50"
+            app:blobInterpolator="@android:anim/bounce_interpolator"
+            tools:ignore="NestedWeights" />
+
+        <com.adityaikhbalm.blobanimation.layout.BlobLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:blobLayout="@drawable/turtle_kids_black_square_1024x1024"
+            app:blobPointCount="16"
+            app:blobRadius="200"
+            app:blobPlay="true"
+            app:blobDuration="2000"
+            app:blobOffset="100"
+            app:blobInterpolator="@android:anim/decelerate_interpolator"/>
+    </LinearLayout>
+
+</LinearLayout>

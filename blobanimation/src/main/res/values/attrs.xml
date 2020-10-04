@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BlobLayout">
+        <attr name="blobPointCount" format="integer"/>
+        <attr name="blobRadius" format="float"/>
+        <attr name="blobOffset" format="float"/>
+        <attr name="blobLayout" format="reference|color"/>
+        <attr name="blobDuration" format="integer"/>
+        <attr name="blobPlay" format="boolean"/>
+        <attr name="blobInterpolator" format="reference"/>
+    </declare-styleable>
+</resources>

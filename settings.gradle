@@ -1,0 +1,2 @@
+include (':blobanimation',':sample')
+rootProject.name = "Blob Layout"
