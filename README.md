@@ -79,7 +79,7 @@ The BNVR has default properties and you can change it as what you want, here are
 | Property | Value Type | Default Value | Information |
 | -------- | ---------- | ------------- | ----------- |
 | app:blobLayout | reference/color | RED Color | Image or Color of blob layout |
-| app:blobPointCount | integer | 7 | Change corner radius |
+| app:blobPointCount | integer | 7 | Number of curve points in the blob object |
 | app:blobRadius | float | 400 | Radius of blob object |
 | app:blobOffset | float | 25 | Offset of blob object |
 | app:blobDuration | integer | 2000 | Duration of animation |
