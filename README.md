@@ -74,7 +74,7 @@ Default Blob Animation, it will play Blob Animation with your own style.
 ```
 
 #### Properties
-The BNVR has default properties and you can change it as what you want, here are the properties:
+Blob Animation has default properties and you can modify it with your own style, here are the properties:
 
 | Property | Value Type | Default Value | Information |
 | -------- | ---------- | ------------- | ----------- |
