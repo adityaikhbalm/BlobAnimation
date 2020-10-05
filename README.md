@@ -8,7 +8,7 @@ Automate Blob Animation with your own custom to simplify designing Blob Animatio
 #### Latest version
 See the latest released Blob Animation version [here](https://github.com/adityaikhbalm/blobanimation/releases).
 
-## ✍️ Installation
+## 🔧 Installation
 #### Gradle setup
 ```gradle
 // project level gradle
@@ -85,6 +85,9 @@ Blob Animation has default properties and you can modify it with your own style,
 | app:blobDuration | integer | 2000 | Duration of animation |
 | app:blobInterpolator | reference | Linear Interpolator | Change corner radius |
 | app:blobPlay | boolean | true  | Should animation to play or not |
+
+## ✍️ To-Do-List
+- [] Display preview in xml layout
 
 ## 📝 License
 This project is under MIT License. See the [LICENSE](https://github.com/adityaikhbalm/blobanimation/blob/master/LICENSE) file for details.
