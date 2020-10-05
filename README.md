@@ -87,7 +87,7 @@ Blob Animation has default properties and you can modify it with your own style,
 | app:blobPlay | boolean | true  | Should animation to play or not |
 
 ## ✍️ To-Do-List
-- [] Display preview in xml layout
+- [ ] Display preview in xml layout
 
 ## 📝 License
 This project is under MIT License. See the [LICENSE](https://github.com/adityaikhbalm/blobanimation/blob/master/LICENSE) file for details.
