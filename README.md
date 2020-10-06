@@ -87,6 +87,7 @@ Blob Animation has default properties and you can modify it with your own style,
 | app:blobPlay | boolean | true  | Should animation to play or not |
 
 ## ✍️ To-Do-List
+- [ ] Support code programmatically
 - [ ] Display preview in xml layout
 
 ## 📝 License
