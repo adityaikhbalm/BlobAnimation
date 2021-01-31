@@ -27,8 +27,8 @@ class BlobLayout : View {
         const val DEFAULT_ANIMATION_DURATION = 1500
     }
 
-    private val blobLayoutHandler: BlobLayoutHandler = BlobLayoutHandler()
-    private lateinit var blobConfig: Blob.Configuration
+    val blobLayoutHandler: BlobLayoutHandler = BlobLayoutHandler()
+    lateinit var blobConfig: Blob.Configuration
 
     private var blobBackground by Delegates.notNull<Int>()
     private var blobCount by Delegates.notNull<Int>()
